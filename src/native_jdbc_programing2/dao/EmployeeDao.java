@@ -5,12 +5,12 @@ import java.util.List;
 import native_jdbc_programing2.dto.Employee;
 
 public interface EmployeeDao {
-	List<Employee> selectByAll();
-	List<Employee> selectByJoinAll();
+	List<Employee> selectByAll(Employee employee);
+	List<Employee> selectByJoinAll(Employee employee);
 	
-	int insert();
-	int update();
-	int delete();
+	int insert(Employee employee);
+	int update(Employee employee);
+	int delete(Employee employee);
 	
 	
 }

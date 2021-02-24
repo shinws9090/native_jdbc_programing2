@@ -7,10 +7,10 @@ import native_jdbc_programing2.dto.Department;
 public interface DepartmentDao {
 	List<Department> selectByAll();
 	
-	Department selectByNo();
-	int insert();
-	int update();
-	int delete();
+	Department selectByNo(Department department);
+	int insert(Department department);
+	int update(Department department);
+	int delete(Department department);
 	
 	
 }

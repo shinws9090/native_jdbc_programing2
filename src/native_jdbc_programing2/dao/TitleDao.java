@@ -6,10 +6,10 @@ import native_jdbc_programing2.dto.Title;
 
 public interface TitleDao {
 	
-	List<Title> selectByAll();
+	List<Title> selectByAll(Title title);
 	
-	int insert();
-	int update();
-	int delete();
+	int insert(Title title);
+	int update(Title title);
+	int delete(Title title);
 	
 }
