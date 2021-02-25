@@ -1,1 +1,1 @@
-{"resources":{"Scripts/Script.sql":{"sql-editor-data-source-id":"mysql5-177ce8beec1-606bfabd8c6d1a5a","default-datasource":"mysql5-177ce8beec1-606bfabd8c6d1a5a"}}}
+{"resources":{"Scripts/Script.sql":{"sql-editor-data-source-id":"mysql5-177ce8beec1-606bfabd8c6d1a5a","default-datasource":"mysql5-177ce8beec1-606bfabd8c6d1a5a","default-catalog":"native_jdbc"}}}
